@@ -2,7 +2,7 @@ const https = require('https');
 
 const CDN_URLS = [
   'https://jsd.nmmsl.top/',
-  'https://jsd.cdn.zzko.cnt',
+  'https://jsd.cdn.zzko.cn',
 ];
 
 function checkCDN(cdnUrl) {
