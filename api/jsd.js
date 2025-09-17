@@ -1,6 +1,7 @@
 const https = require('https');
 
 const CDN_URLS = [
+  'https://jsd.418121.xyz',
   'https://jsd.nmmsl.top',
   'https://jsdelivr.topthink.com',
   'https://cdn.jsdmirror.com', 
@@ -56,4 +57,5 @@ module.exports = async (req, res) => {
     res.end('Error finding a working CDN');
   }
 };
+
 
