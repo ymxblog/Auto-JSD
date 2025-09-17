@@ -2,7 +2,15 @@ const https = require('https');
 
 const CDN_URLS = [
   'https://jsd.nmmsl.top',
-  'https://jsd.cdn.zzko.cn',
+  'https://jsdelivr.topthink.com',
+  'https://cdn.jsdmirror.com', 
+  'https://fastly.jsdelivr.net', 
+  'https://cdn.jsdmirror.cn', 
+  'https://s4.zstatic.net', 
+  'https://cdn.iocdn.cc',
+  'https://open.lightxi.com',
+  'https://jsd.nsmao.net',
+  'https://jsd-proxy.ygxz.in',
 ];
 
 function checkCDN(cdnUrl) {
@@ -48,3 +56,4 @@ module.exports = async (req, res) => {
     res.end('Error finding a working CDN');
   }
 };
+
